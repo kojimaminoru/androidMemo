@@ -1,0 +1,2 @@
+# androidMemo
+kotlinでAndroidアプリ作成
