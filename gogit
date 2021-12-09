@@ -1,0 +1,4 @@
+cd /Users/poisoned/AndroidStudioProjects/test2/app/src/main/java/com/example/test2
+git add .
+git commit -m "`date +"%y/%m/%d"`"
+git push origin master

@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         var buttonB = findViewById<Button>(R.id.button_B)
 
         buttonA.setOnClickListener {
-            textMessage.setText(R.string.textMessage_A)
+            textMessage.setText("abc")
         }
         buttonB.setOnClickListener {
             textMessage.setText(R.string.textMessage_B)
