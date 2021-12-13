@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         var textMessage = findViewById<TextView>(R.id.textMessage)
         var buttonA = findViewById<Button>(R.id.button_A)
         var buttonB = findViewById<Button>(R.id.button_B)
+        var buttonX = findViewById<Button>(R.id.button_X)
         var inputText = findViewById<EditText>(R.id.editTextTextPersonName)
 
         buttonA.setOnClickListener {
@@ -22,6 +23,9 @@ class MainActivity : AppCompatActivity() {
         }
         buttonB.setOnClickListener {
             textMessage.setText(R.string.textMessage_B)
+        }
+        buttonX.setOnClickListener {
+            textMessage.setText(R.string.inputText)
         }
     }
 }
