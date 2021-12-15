@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
             textMessage.setText(R.string.textMessage_B)
         }
         buttonX.setOnClickListener {
-            textMessage.setText(R.string.inputText)
+            textMessage.setText(inputText.text.toString())
         }
     }
 }
