@@ -1,6 +1,5 @@
 package com.example.test2
 
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -16,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         var buttonA = findViewById<Button>(R.id.button_A)
         var buttonB = findViewById<Button>(R.id.button_B)
         var buttonX = findViewById<Button>(R.id.button_X)
-        var inputText = findViewById<EditText>(R.id.editTextTextPersonName)
+        var inputText = findViewById<EditText>(R.id.textBox)
 
         buttonA.setOnClickListener {
             textMessage.setText("abc")
