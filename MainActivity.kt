@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         var inputText = findViewById<EditText>(R.id.textBox)
 
         buttonA.setOnClickListener {
-            textMessage.setText("abc")
+            textMessage.setText(R.string.textMessage_A)
         }
         buttonB.setOnClickListener {
             textMessage.setText(R.string.textMessage_B)
